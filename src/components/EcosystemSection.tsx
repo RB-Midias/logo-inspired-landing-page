@@ -23,19 +23,19 @@ const EcosystemSection = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-foreground border-l-4 border-primary pl-4 mb-8 uppercase tracking-wide">
+    <section className="container mx-auto px-4 py-16 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 uppercase tracking-wide inline-block border-b-4 border-primary pb-2">
         Ecossistema de Conversão
       </h2>
-      <p className="text-muted-foreground mb-8 text-lg">
+      <p className="text-muted-foreground mb-8 text-lg max-w-3xl mx-auto">
         Não fazemos apenas "anúncios". Entregamos a infraestrutura técnica completa:
       </p>
       
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-glow-cyan transition-all duration-300 group"
+            className="bg-card border border-border rounded-xl p-6 hover:border-primary/50 hover:shadow-glow-cyan transition-all duration-300 group text-center"
           >
             <h3 className="text-primary text-xl font-bold mb-3 group-hover:text-secondary transition-colors">
               {service.number}. {service.title}

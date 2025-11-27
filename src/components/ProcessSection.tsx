@@ -19,14 +19,14 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-foreground border-l-4 border-primary pl-4 mb-8 uppercase tracking-wide">
+    <section className="container mx-auto px-4 py-16 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 uppercase tracking-wide inline-block border-b-4 border-secondary pb-2">
         Como Trabalhamos
       </h2>
-      <div className="bg-card border-l-4 border-secondary rounded-xl p-8 md:p-10">
+      <div className="bg-card border border-secondary rounded-xl p-8 md:p-10 max-w-4xl mx-auto">
         <ul className="space-y-6">
           {phases.map((phase, index) => (
-            <li key={index} className="flex items-start gap-3">
+            <li key={index} className="flex items-start gap-3 justify-center text-left max-w-2xl mx-auto">
               <span className="text-primary text-xl font-bold mt-0.5">✓</span>
               <div>
                 <strong className="text-foreground text-lg">{phase.title}:</strong>

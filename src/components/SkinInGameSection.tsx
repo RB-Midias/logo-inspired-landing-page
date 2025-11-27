@@ -1,10 +1,10 @@
 const SkinInGameSection = () => {
   return (
-    <section className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-foreground border-l-4 border-primary pl-4 mb-8 uppercase tracking-wide">
+    <section className="container mx-auto px-4 py-16 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 uppercase tracking-wide inline-block border-b-4 border-primary pb-2">
         Skin in the Game
       </h2>
-      <p className="text-muted-foreground mb-8 text-lg">
+      <p className="text-muted-foreground mb-8 text-lg max-w-3xl mx-auto">
         Diferente de agências que testam com o dinheiro do cliente, a <strong className="text-foreground">RB Mídias</strong> nasceu no campo de batalha. Atuamos com gestão própria de rifas há mais de 1 ano.
       </p>
       
