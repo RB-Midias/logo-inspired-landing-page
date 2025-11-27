@@ -4,7 +4,7 @@ import { Send, User, Phone, Mail } from "lucide-react";
 const Diagnostic = () => {
   // CONFIGURAÇÕES
   // 1. Seu Email para receber o formulário
-  const EMAIL_DESTINO = "rjbmidias@gmail.com"; 
+  const EMAIL_DESTINO = "deafac84c4851fee7c756d9047796528"; 
   
   // 2. Seu WhatsApp para redirecionamento (apenas números, com 55 e DDD)
   const WHATSAPP_NUMERO = "5547992400169";
