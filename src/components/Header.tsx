@@ -25,14 +25,16 @@ const Header = () => {
       <p className="text-muted-foreground text-lg md:text-xl mb-8 max-w-3xl mx-auto">
         O único serviço de tráfego especializado em rifas com método que já foi validado com capital próprio antes de ser aplicado no seu negócio.
       </p>
-      <Link to="/diagnostico">
-        <Button 
-          size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
-        >
-          Fazer Mapeamento Estratégico Gratuito
-        </Button>
-      </Link>
+      <div className="flex justify-center">
+        <Link to="/diagnostico">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
+          >
+            Fazer Mapeamento Estratégico Gratuito
+          </Button>
+        </Link>
+      </div>
     </header>
   );
 };
