@@ -13,12 +13,14 @@ const CTASection = () => {
         <p className="text-foreground font-bold text-xl mb-8">
           RB Mídias - Performance Digital
         </p>
-        <Button 
-          size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
-        >
-          Solicitar Orçamento
-        </Button>
+        <div className="flex justify-center">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
+          >
+            Solicitar Orçamento
+          </Button>
+        </div>
       </div>
     </section>
   );
