@@ -31,7 +31,7 @@ const Header = () => {
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
           >
-            Fazer Mapeamento Estratégico Gratuito
+            Destravar Minha Rifa
           </Button>
         </Link>
       </div>
