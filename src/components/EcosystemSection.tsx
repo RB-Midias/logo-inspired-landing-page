@@ -2,33 +2,33 @@ const EcosystemSection = () => {
   const services = [
     {
       number: "01",
-      title: "Gestão de Tráfego",
-      description: "Estratégias de lance focadas em maximizar CPC e escala de volume para encher grupos rapidamente.",
+      title: "Infraestrutura Completa (LP + API)",
+      description: "Fim dos bloqueios de Pixel. Rastreamento 100% de quem comprou.",
     },
     {
       number: "02",
-      title: "Edição de Criativos",
-      description: "Transformamos seus vídeos brutos em anúncios de alta retenção (Reels/Stories) que convertem.",
+      title: "Edição de Criativos Profissionais",
+      description: "Seus anúncios param de parecer amadores, aumentando a Taxa de Clique (CTR).",
     },
     {
       number: "03",
-      title: "Landing Page",
-      description: "Página de alta conversão focada em tirar a dúvida do lead e enviá-lo para o grupo ou checkout.",
+      title: "Estratégia de Lances (Bid Strategy)",
+      description: "Otimização para volume máximo (Maximizar CPC) de pessoas certas.",
     },
     {
       number: "04",
-      title: "Rastreamento (API)",
-      description: "Configuração de Pixel e API de Conversão para driblar bloqueios do iOS14+ e rastrear cada cliente.",
+      title: "Relatórios Descomplicados",
+      description: "Saiba exatamente quanto está investindo e qual o retorno de cada centavo (ROI).",
     },
   ];
 
   return (
     <section className="container mx-auto px-4 py-16 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 uppercase tracking-wide inline-block border-b-4 border-primary pb-2">
-        Ecossistema de Conversão
+        Pare de Contratar 3 Freelancers. Contrate a Engenharia de Tráfego Completa.
       </h2>
       <p className="text-muted-foreground mb-8 text-lg max-w-3xl mx-auto">
-        Não fazemos apenas "anúncios". Entregamos a infraestrutura técnica completa:
+        Contratar a RB Mídias significa ter a solução 360º que realmente escala vendas.
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">

@@ -6,13 +6,10 @@ const CTASection = () => {
     <section className="container mx-auto px-4 py-16">
       <div className="bg-gradient-to-br from-card via-muted to-card border-2 border-primary/30 rounded-2xl p-10 md:p-16 text-center shadow-glow-purple">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-          Vamos escalar sua operação?
+          Troque a Espera Pelo Método. Garanta a Previsibilidade de 100%.
         </h2>
-        <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
-          Pare de depender da sorte ou da boa vontade dos amigos. Transforme sua rifa em um processo previsível de vendas.
-        </p>
-        <p className="text-foreground font-bold text-xl mb-8">
-          RB Mídias - Performance Digital
+        <p className="text-muted-foreground text-lg mb-8 max-w-3xl mx-auto">
+          O sucesso da sua rifa não é sorte, é engenharia de tráfego. Enquanto a concorrência torce para a venda aparecer, nós aplicamos o método validado da RB Mídias para garantir que seu fechamento seja rápido, lucrativo e totalmente previsível.
         </p>
         <div className="flex justify-center">
           <Link to="/diagnostico">
@@ -20,7 +17,7 @@ const CTASection = () => {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
             >
-              Solicitar Orçamento
+              Começar Mapeamento Estratégico Agora
             </Button>
           </Link>
         </div>
