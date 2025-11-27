@@ -17,7 +17,7 @@ const CTASection = () => {
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-12 py-6 uppercase tracking-wide shadow-glow-cyan"
             >
-              Começar Mapeamento Estratégico Agora
+              Destravar minha rifa
             </Button>
           </Link>
         </div>
