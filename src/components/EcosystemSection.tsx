@@ -18,7 +18,7 @@ const EcosystemSection = () => {
     {
       number: "04",
       title: "Rastreamento (API)",
-      description: "Configuração de Pixel e API de Conversão para driblar bloqueios do iOS14+ e rastrear cada venda.",
+      description: "Configuração de Pixel e API de Conversão para driblar bloqueios do iOS14+ e rastrear cada cliente.",
     },
   ];
 
