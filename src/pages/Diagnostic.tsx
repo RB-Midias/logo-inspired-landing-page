@@ -4,10 +4,10 @@ import { Send, User, Phone, Mail } from "lucide-react";
 const Diagnostic = () => {
   // CONFIGURAÇÕES
   // 1. Seu Email para receber o formulário
-  const EMAIL_DESTINO = "SEU_EMAIL_AQUI"; 
+  const EMAIL_DESTINO = "rjbmidias@gmail.com"; 
   
   // 2. Seu WhatsApp para redirecionamento (apenas números, com 55 e DDD)
-  const WHATSAPP_NUMERO = "5500000000000"; 
+  const WHATSAPP_NUMERO = "5547992400169";
   
   // Mensagem que aparecerá no seu Whats
   const msgWhats = encodeURIComponent("Olá, acabei de preencher o diagnóstico no site e gostaria de falar com a RB Mídias.");
